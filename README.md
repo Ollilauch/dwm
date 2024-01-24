@@ -3,7 +3,7 @@ vanity gaps\
 fullscreen (Mod + shift + f)\
 stacker (change window position manually)\
 swallow\
-focus on click\
+focus on click
 
 Installation
 ---
