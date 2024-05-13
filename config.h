@@ -134,6 +134,7 @@ static const char *upvol[] = {"dwm-volume", "up", NULL};
 static const char *downvol[] = {"dwm-volume", "down", NULL};
 static const char *mutevol[] = {"dwm-volume", "toggle", NULL};
 static const char *umutevol[] = {"dwm-volume", "umute", NULL};
+static const char *mutemic[] = {"dwm-volume", "mic toggle", NULL};
 static const char *screenshot[] = {"flameshot", "gui", NULL};
 static const char *calendar[] = {
     "st", "-c", "floating", "-g", "90x25+500+500", "calcurse", NULL};
@@ -201,6 +202,7 @@ static const Key keys[] = {
     {0, XF86XK_AudioMute, spawn, {.v = mutevol}},
     {0, XF86XK_AudioRaiseVolume, spawn, {.v = upvol}},
     {0, XF86XK_AudioRaiseVolume, spawn, {.v = umutevol}},
+    {0, XF86XK_AudioMicMute, spawn, {.v = mutemic}},
     {0, 0xff61, spawn, {.v = screenshot}},
 };
 
